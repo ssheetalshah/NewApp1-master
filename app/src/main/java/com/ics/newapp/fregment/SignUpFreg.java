@@ -22,7 +22,7 @@ public class SignUpFreg extends Fragment {
     Button signup;
     //  View view;
     Spinner spin;
-    String[] abcd = {"Manufacturer", "Dealers", "Buyers"};
+    String[] abcd = {"Manufacturer", "Dealers", "Buyers","Abcd"};
 
     @Nullable
     @Override
