@@ -22,7 +22,7 @@ public class SignUpFreg extends Fragment {
     Button signup;
     //  View view;
     Spinner spin;
-    String[] country = {"Manufacturer", "Dealers", "Buyers"};
+    String[] abcd = {"Manufacturer", "Dealers", "Buyers"};
 
     @Nullable
     @Override
@@ -58,7 +58,7 @@ public class SignUpFreg extends Fragment {
         spin = (Spinner)view.findViewById(R.id.spin);
 
         //Creating the ArrayAdapter instance having the country list
-        ArrayAdapter aa = new ArrayAdapter(getActivity(), R.layout.custom_spinner , country);
+        ArrayAdapter aa = new ArrayAdapter(getActivity(), R.layout.custom_spinner , abcd);
         aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         //Setting the ArrayAdapter data on the Spinner
         spin.setAdapter(aa);
